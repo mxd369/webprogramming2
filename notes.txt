@@ -1,0 +1,77 @@
+Database 02/14/17
+
+
+WEB-INF
+    lib
+      mysql-jdbc
+
+
+I have a mysql-connect in downloads directory, the jar file looks like this
+mysql-connector-java-5.1.40-bin.jar
+
+download from: https://dev.mysql.com/downloads/file/?id=465644
+
+install a database for mysql
+https://dev.mysql.com/downloads/
+
+workbench
+
+or MySQL Community Server
+
+
+root
+pw:
+********
+
+
+
+in terminal
+$ mysql -uroot -p
+Enter password:
+
+
+or just
+$ mysql
+
+mysql> show databases
+    -> ;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| test               |
++--------------------+
+2 rows in set (0.01 sec)
+
+mysql> 
+
+// use
+mysql> use imdb;
+
+// show the schema
+
+
+mysql> select * from actors;
+
+
+// how to use jdbc
+
+
+1 load the driver
+check the slide number 8
+2 establish a connection
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

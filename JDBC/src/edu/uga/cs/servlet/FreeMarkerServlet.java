@@ -1,4 +1,4 @@
-package edu.uga.cs4300.servlet;
+package edu.uga.cs.servlet;
 
 import java.io.IOException;
 import java.io.Writer;
