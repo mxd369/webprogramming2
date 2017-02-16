@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="freemarker.template.Configuration"/>
+<fullyQualifiedTypeName name="freemarker.template.Template"/>
+<fullyQualifiedTypeName name="freemarker.template.SimpleHash"/>
+<fullyQualifiedTypeName name="freemarker.template.TemplateException"/>
+<fullyQualifiedTypeName name="freemarker.template.DefaultObjectWrapperBuilder"/>
+<fullyQualifiedTypeName name="freemarker.template.TemplateExceptionHandler"/>
+</qualifiedTypeNameHistroy>

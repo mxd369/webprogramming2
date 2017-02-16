@@ -1,0 +1,92 @@
+body {
+	background-color: white;
+	width: 1024px;
+	/*
+	font-size: 16px;
+	*/
+	/*
+	background-image: url("images/images.jpg");
+	*/
+	background-image: url('silverware.jpg');
+	background-repeat: repeat;
+	background-attachment: fixed;
+}
+p, li {
+	color: #404040;
+	font-size: 11pt;
+	font-family:  Georgia, serif;/* Georgia, Garamond, serif */
+}
+a {
+	color: #A4A400;
+}
+
+h1, h2 {
+	color: #A4A400;
+	background-color: #F0F0F0;
+	text-decoration: underline;
+	font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+	padding: 5px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 22pt;
+	font-weight: bold;
+	border: 20px none;
+}
+
+h2 {
+	text-align: left;
+	font-size: 18pt;
+	font-style: normal;
+}
+
+/* for id use #, for unique such as div */
+/* class use dot operator, multiple */
+.boldText {
+	font-weight: bold;
+}
+
+.strike {
+	text-decoration: line-through;
+}
+
+.comment {
+	font-style: italic;
+	background-color: #fdfd99;
+	margin: 20px;
+	color: #404040;
+}
+
+#inchpie {
+	list-style-type: none;
+	list-style-position:inside;
+	margin:0;
+	padding:0;
+	color: #404040;
+}
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
