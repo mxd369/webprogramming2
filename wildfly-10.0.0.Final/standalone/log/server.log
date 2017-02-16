@@ -257,3 +257,13 @@ FTL stack trace ("~" means nesting-related):
 2017-02-16 09:45:13,392 ERROR [stderr] (default task-9) 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 2017-02-16 09:45:13,392 ERROR [stderr] (default task-9) 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 2017-02-16 09:45:13,392 ERROR [stderr] (default task-9) 	at java.lang.Thread.run(Thread.java:745)
+2017-02-16 09:53:03,802 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 70) WFLYUT0022: Unregistered web context: /JDBC
+2017-02-16 09:53:03,820 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-2) HV000001: Hibernate Validator 5.2.3.Final
+2017-02-16 09:53:03,857 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment JDBC.war (runtime-name: JDBC.war) in 61ms
+2017-02-16 09:53:03,859 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "JDBC.war" (runtime-name: "JDBC.war")
+2017-02-16 09:53:04,034 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2017-02-16 09:53:04,038 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.fabric.jdbc.FabricMySQLDriver (version 5.1)
+2017-02-16 09:53:04,039 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = JDBC.war_com.mysql.jdbc.Driver_5_1
+2017-02-16 09:53:04,040 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Started Driver service with driver-name = JDBC.war_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2017-02-16 09:53:04,049 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 70) WFLYUT0021: Registered web context: /JDBC
+2017-02-16 09:53:04,095 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0016: Replaced deployment "JDBC.war" with deployment "JDBC.war"
