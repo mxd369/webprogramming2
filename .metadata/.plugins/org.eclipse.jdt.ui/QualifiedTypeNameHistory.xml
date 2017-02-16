@@ -7,4 +7,5 @@
 <fullyQualifiedTypeName name="freemarker.template.TemplateException"/>
 <fullyQualifiedTypeName name="freemarker.template.DefaultObjectWrapperBuilder"/>
 <fullyQualifiedTypeName name="freemarker.template.TemplateExceptionHandler"/>
+<fullyQualifiedTypeName name="edu.uga.cs.servlet.DatabaseAccess"/>
 </qualifiedTypeNameHistroy>
