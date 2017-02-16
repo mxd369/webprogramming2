@@ -267,3 +267,111 @@ FTL stack trace ("~" means nesting-related):
 2017-02-16 09:53:04,040 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Started Driver service with driver-name = JDBC.war_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
 2017-02-16 09:53:04,049 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 70) WFLYUT0021: Registered web context: /JDBC
 2017-02-16 09:53:04,095 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0016: Replaced deployment "JDBC.war" with deployment "JDBC.war"
+2017-02-16 09:57:57,717 ERROR [freemarker.runtime] (default task-15) Error executing FreeMarker template: freemarker.core.InvalidReferenceException: The following has evaluated to null or missing:
+==> username  [in template "thoughts.ftl" at line 8, column 23]
+
+----
+Tip: If the failing expression is known to be legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${username}  [in template "thoughts.ftl" at line 8, column 21]
+----
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:134)
+	at freemarker.core.EvalUtil.coerceModelToTextualCommon(EvalUtil.java:451)
+	at freemarker.core.EvalUtil.coerceModelToStringOrMarkup(EvalUtil.java:374)
+	at freemarker.core.DollarVariable.calculateInterpolatedStringOrMarkup(DollarVariable.java:96)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:59)
+	at freemarker.core.Environment.visit(Environment.java:327)
+	at freemarker.core.Environment.visit(Environment.java:333)
+	at freemarker.core.Environment.process(Environment.java:306)
+	at freemarker.template.Template.process(Template.java:386)
+	at edu.uga.cs.servlet.ThoughtsBank.runTemplate(ThoughtsBank.java:120)
+	at edu.uga.cs.servlet.ThoughtsBank.doGet(ThoughtsBank.java:133)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:284)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:263)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:174)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:202)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:793)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2017-02-16 09:57:57,720 ERROR [stderr] (default task-15) FreeMarker template error:
+2017-02-16 09:57:57,720 ERROR [stderr] (default task-15) The following has evaluated to null or missing:
+2017-02-16 09:57:57,720 ERROR [stderr] (default task-15) ==> username  [in template "thoughts.ftl" at line 8, column 23]
+2017-02-16 09:57:57,720 ERROR [stderr] (default task-15) 
+2017-02-16 09:57:57,720 ERROR [stderr] (default task-15) ----
+2017-02-16 09:57:57,720 ERROR [stderr] (default task-15) Tip: If the failing expression is known to be legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+2017-02-16 09:57:57,720 ERROR [stderr] (default task-15) ----
+2017-02-16 09:57:57,721 ERROR [stderr] (default task-15) 
+2017-02-16 09:57:57,721 ERROR [stderr] (default task-15) ----
+2017-02-16 09:57:57,721 ERROR [stderr] (default task-15) FTL stack trace ("~" means nesting-related):
+2017-02-16 09:57:57,721 ERROR [stderr] (default task-15) 	- Failed at: ${username}  [in template "thoughts.ftl" at line 8, column 21]
+2017-02-16 09:57:57,721 ERROR [stderr] (default task-15) ----
+2017-02-16 09:57:57,722 ERROR [stderr] (default task-15) 
+2017-02-16 09:57:57,722 ERROR [stderr] (default task-15) Java stack trace (for programmers):
+2017-02-16 09:57:57,722 ERROR [stderr] (default task-15) ----
+2017-02-16 09:57:57,722 ERROR [stderr] (default task-15) freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+2017-02-16 09:57:57,722 ERROR [stderr] (default task-15) 	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:134)
+2017-02-16 09:57:57,722 ERROR [stderr] (default task-15) 	at freemarker.core.EvalUtil.coerceModelToTextualCommon(EvalUtil.java:451)
+2017-02-16 09:57:57,723 ERROR [stderr] (default task-15) 	at freemarker.core.EvalUtil.coerceModelToStringOrMarkup(EvalUtil.java:374)
+2017-02-16 09:57:57,723 ERROR [stderr] (default task-15) 	at freemarker.core.DollarVariable.calculateInterpolatedStringOrMarkup(DollarVariable.java:96)
+2017-02-16 09:57:57,723 ERROR [stderr] (default task-15) 	at freemarker.core.DollarVariable.accept(DollarVariable.java:59)
+2017-02-16 09:57:57,723 ERROR [stderr] (default task-15) 	at freemarker.core.Environment.visit(Environment.java:327)
+2017-02-16 09:57:57,723 ERROR [stderr] (default task-15) 	at freemarker.core.Environment.visit(Environment.java:333)
+2017-02-16 09:57:57,723 ERROR [stderr] (default task-15) 	at freemarker.core.Environment.process(Environment.java:306)
+2017-02-16 09:57:57,723 ERROR [stderr] (default task-15) 	at freemarker.template.Template.process(Template.java:386)
+2017-02-16 09:57:57,723 ERROR [stderr] (default task-15) 	at edu.uga.cs.servlet.ThoughtsBank.runTemplate(ThoughtsBank.java:120)
+2017-02-16 09:57:57,723 ERROR [stderr] (default task-15) 	at edu.uga.cs.servlet.ThoughtsBank.doGet(ThoughtsBank.java:133)
+2017-02-16 09:57:57,724 ERROR [stderr] (default task-15) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+2017-02-16 09:57:57,724 ERROR [stderr] (default task-15) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+2017-02-16 09:57:57,724 ERROR [stderr] (default task-15) 	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+2017-02-16 09:57:57,724 ERROR [stderr] (default task-15) 	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+2017-02-16 09:57:57,724 ERROR [stderr] (default task-15) 	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+2017-02-16 09:57:57,724 ERROR [stderr] (default task-15) 	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+2017-02-16 09:57:57,724 ERROR [stderr] (default task-15) 	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+2017-02-16 09:57:57,724 ERROR [stderr] (default task-15) 	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+2017-02-16 09:57:57,724 ERROR [stderr] (default task-15) 	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+2017-02-16 09:57:57,724 ERROR [stderr] (default task-15) 	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+2017-02-16 09:57:57,725 ERROR [stderr] (default task-15) 	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+2017-02-16 09:57:57,725 ERROR [stderr] (default task-15) 	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+2017-02-16 09:57:57,725 ERROR [stderr] (default task-15) 	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+2017-02-16 09:57:57,725 ERROR [stderr] (default task-15) 	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+2017-02-16 09:57:57,725 ERROR [stderr] (default task-15) 	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+2017-02-16 09:57:57,725 ERROR [stderr] (default task-15) 	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+2017-02-16 09:57:57,725 ERROR [stderr] (default task-15) 	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+2017-02-16 09:57:57,726 ERROR [stderr] (default task-15) 	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+2017-02-16 09:57:57,726 ERROR [stderr] (default task-15) 	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+2017-02-16 09:57:57,726 ERROR [stderr] (default task-15) 	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+2017-02-16 09:57:57,726 ERROR [stderr] (default task-15) 	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:284)
+2017-02-16 09:57:57,726 ERROR [stderr] (default task-15) 	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:263)
+2017-02-16 09:57:57,726 ERROR [stderr] (default task-15) 	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+2017-02-16 09:57:57,726 ERROR [stderr] (default task-15) 	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:174)
+2017-02-16 09:57:57,726 ERROR [stderr] (default task-15) 	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:202)
+2017-02-16 09:57:57,727 ERROR [stderr] (default task-15) 	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:793)
+2017-02-16 09:57:57,727 ERROR [stderr] (default task-15) 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+2017-02-16 09:57:57,727 ERROR [stderr] (default task-15) 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+2017-02-16 09:57:57,727 ERROR [stderr] (default task-15) 	at java.lang.Thread.run(Thread.java:745)

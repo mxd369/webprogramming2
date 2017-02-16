@@ -139,3 +139,6 @@ archive=0
 path=/Users/MXD/Sites/webprogramming/wildfly-10.0.0.Final/modules/system/layers/base/org/picketbox/main/picketbox-commons-1.0.0.final.jar
 size=20987
 archive=0
+path=/Users/MXD/Sites/webprogramming/JDBC/WebContent/WEB-INF/lib/mysql-connector-java-5.1.40-bin.jar
+size=990927
+archive=0

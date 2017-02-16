@@ -1,0 +1,9 @@
+Resource: http://www.kitebird.com/articles/jdbc.html
+
+1. Create database animaldb
+
+2. Create table animal
+
+3. Insert several records into animal table
+
+4. Write a web app that retrieves animals and shows them to user
