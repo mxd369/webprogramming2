@@ -395,3 +395,15 @@
 
 !ENTRY org.jboss.ide.eclipse.as.core 1 0 2017-02-21 13:10:22.152
 !MESSAGE Module project2 on WildFly 10.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2017-02-21 13:15:40.511
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2017-02-21 13:16:45.372
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2017-02-21 13:16:47.406
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2017-02-21 13:16:47.408
+!MESSAGE Module project2 on WildFly 10.x not yet fully deployed. Waiting...

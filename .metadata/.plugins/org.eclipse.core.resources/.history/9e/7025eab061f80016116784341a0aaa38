@@ -66,15 +66,15 @@ public class FreeMarkerServlet extends HttpServlet {
 		DefaultObjectWrapperBuilder df = new DefaultObjectWrapperBuilder(Configuration.VERSION_2_3_25);
 		SimpleHash root = new SimpleHash(df.build());
 		
-		//String fname = request.getParameter("fname");
-		//String lname = request.getParameter("lname");
-		//String username = fname + " " + lname;
-		//root.put("user", username);
+		String fname = request.getParameter("fname");
+		String lname = request.getParameter("lname");
+		String username = fname + " " + lname;
+		root.put("user", username);
 		//Product p = new Product("Computer", "/product/systems.html");
 		//root.put("latestProduct", p);
 		
 		try {
-			String templateName = "homepage.ftl";
+			String templateName = "product.ftl";
 			template = cfg.getTemplate(templateName );
 			response.setContentType("text/html");
 			Writer out = response.getWriter();
