@@ -3839,3 +3839,6 @@ java.util.ConcurrentModificationException
 	at org.jboss.tools.common.validation.AsYouTypeValidatorManager.validateString(AsYouTypeValidatorManager.java:203)
 	at org.jboss.tools.common.validation.java.JavaDirtyRegionProcessor.endProcessing(JavaDirtyRegionProcessor.java:498)
 	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:697)
+
+!ENTRY org.eclipse.wst.server.core 4 2 2017-02-20 20:50:57.718
+!MESSAGE Server WildFly 10.x failed to start.

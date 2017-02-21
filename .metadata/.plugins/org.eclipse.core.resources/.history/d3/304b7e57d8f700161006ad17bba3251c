@@ -75,7 +75,7 @@ import freemarker.template.TemplateExceptionHandler;
 /**
  * Servlet implementation class project2
  */
-@WebServlet("project2")
+@WebServlet("/project2")
 public class project2 extends HttpServlet {
     private static final long serialVersionUID = 1L;
     Configuration cfg = null;
