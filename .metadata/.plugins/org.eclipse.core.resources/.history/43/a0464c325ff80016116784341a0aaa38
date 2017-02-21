@@ -1,0 +1,10 @@
+package edu.uga.cs.servlet;
+
+public class Dbconnection {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
