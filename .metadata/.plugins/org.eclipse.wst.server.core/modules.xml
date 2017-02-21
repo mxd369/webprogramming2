@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <modules>
   <module moduleId="org.eclipse.jst.jee.server:JDBC" serverId="WildFly 10.x1485876105685"/>
+  <module moduleId="org.eclipse.jst.jee.server:project2" serverId="WildFly 10.x1485876105685"/>
   <module moduleId="org.eclipse.jst.jee.server:cs4300-Spring2017-Servlet" serverId="WildFly 10.x1485876105685"/>
   <module moduleId="org.eclipse.jst.jee.server:ThoughtsBank" serverId="WildFly 10.x1485876105685"/>
 </modules>
