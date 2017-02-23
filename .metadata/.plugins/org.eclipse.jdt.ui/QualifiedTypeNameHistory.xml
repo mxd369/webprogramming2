@@ -8,4 +8,8 @@
 <fullyQualifiedTypeName name="freemarker.template.DefaultObjectWrapperBuilder"/>
 <fullyQualifiedTypeName name="freemarker.template.TemplateExceptionHandler"/>
 <fullyQualifiedTypeName name="edu.uga.cs.servlet.DatabaseAccess"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="com.mysql.jdbc.Connection"/>
+<fullyQualifiedTypeName name="java.sql.DriverManager"/>
+<fullyQualifiedTypeName name="java.sql.SQLException"/>
 </qualifiedTypeNameHistroy>
