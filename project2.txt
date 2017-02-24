@@ -1,0 +1,59 @@
+type in movie
+how do you generate this list
+this tab;e
+the fremarker table
+
+query the .. the database
+
+actor, show actor
+
+textbox
+
+actor returns all actors
+
+movies returns all movies
+
+
+
+
+the directory
+war file from local machine to specific direcotry
+
+
+
+http://cobweb.cs.uga.edu/~mehdi/teaching/4300/proj2.html
+
+filezilla
+
+
+scp path wp420 wp420.cs.uga.edu://
+
+
+then connect
+
+ssh medhi@wp420.cs.uga.edu
+
+enter password
+
+
+
+wp420.cs.uga.edu:8080/Dang_Micahel_imbd/movie.html
+
+----------------------------
+
+IMNDB Search
+Table Name:
+[				]
+Search
+
+----------------------------
+
+
+run a select query get the list and display the list
+
+the list comes from a freemarker template: generated dynamically
+
+JDBC ---- generate a list of movies, actors, ....
+
+submit the project directory completely
+  WEB-INF, etc

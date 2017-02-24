@@ -1,3 +1,6 @@
+path=/Users/MXD/Sites/webprogramming/JDBC2/WebContent/WEB-INF/lib/mysql-connector-java-5.1.40-bin.jar
+size=990927
+archive=0
 path=/Users/MXD/Sites/webprogramming/wildfly-10.0.0.Final/modules/system/layers/base/javax/jws/api/main/jsr181-api-1.0-MR1.jar
 size=7989
 archive=0
@@ -42,6 +45,9 @@ size=440880
 archive=0
 path=/Users/MXD/Sites/webprogramming/wildfly-10.0.0.Final/modules/system/layers/base/javax/jms/api/main/jboss-jms-api_2.0_spec-1.0.0.Final.jar
 size=49618
+archive=0
+path=/Users/MXD/Sites/webprogramming/JDBC2/WebContent/WEB-INF/lib/freemarker.jar
+size=1493680
 archive=0
 path=/Users/MXD/Sites/webprogramming/wildfly-10.0.0.Final/modules/system/layers/base/javax/ws/rs/api/main/jboss-jaxrs-api_2.0_spec-1.0.0.Final.jar
 size=116848
