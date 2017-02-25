@@ -643,3 +643,6 @@
 
 !ENTRY org.jboss.ide.eclipse.as.core 1 0 2017-02-23 23:49:17.090
 !MESSAGE Module Calculator on WildFly 10.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2017-02-23 23:54:12.681
+!MESSAGE Server processes have been terminated.
