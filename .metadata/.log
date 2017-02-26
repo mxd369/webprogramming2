@@ -5743,3 +5743,9 @@ java.util.zip.ZipException: zip file is empty
 
 !ENTRY org.eclipse.jst.jsp.core 2 2 2017-02-25 20:16:13.882
 !MESSAGE Taglib Index ZipException: /Users/MXD/Sites/webprogramming/studentInfo/WebContent/WEB-INF/templates/register.ftl zip file is empty
+
+!ENTRY org.eclipse.jdt.core 4 0 2017-02-25 20:18:59.351
+!MESSAGE Invalid ZIP archive: WebContent/WEB-INF/templates/login.ftl [in studentInfo]
+
+!ENTRY org.eclipse.jdt.core 4 0 2017-02-25 20:18:59.352
+!MESSAGE Invalid ZIP archive: WebContent/WEB-INF/templates/register.ftl [in studentInfo]
