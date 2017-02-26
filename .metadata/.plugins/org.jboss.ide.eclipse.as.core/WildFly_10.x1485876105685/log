@@ -646,3 +646,25 @@
 
 !ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2017-02-23 23:54:12.681
 !MESSAGE Server processes have been terminated.
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2017-02-25 18:55:09.191
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2017-02-25 18:55:12.256
+!MESSAGE Module studentInfo on WildFly 10.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2017-02-25 18:55:12.258
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2017-02-25 19:04:10.099
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2017-02-25 19:04:18.940
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2017-02-25 19:04:21.504
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2017-02-25 19:04:21.507
+!MESSAGE Module studentInfo on WildFly 10.x not yet fully deployed. Waiting...
