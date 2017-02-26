@@ -6,16 +6,15 @@
 </head>
 <body>
 	<h3>Student Info</h3>
-	<form action="StudentServlet">
-		signup
-		<inout name="">
-		<input type="submit">
+	
+	<form action="templates/register.ftl">
+	sign up
+		<input type="submit" value="register" name="submit">
 	</form>
 <br/>
-	<form action="StudentServlet">
-		signin
-		<inout name="">
-		<input type="submit">
+	<form action="templates/login.ftl" method="get">
+	sign in
+		<input type="submit" value="login" name="submit">
 	</form>
 </body>
 </html>

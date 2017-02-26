@@ -1,0 +1,4 @@
+"{\"WFLYCTL0080: Failed services\" => {\"jboss.deployment.unit.\\\"studentInfo.war\\\".POST_MODULE\" => \"org.jboss.msc.service.StartException in service jboss.deployment.unit.\\\"studentInfo.war\\\".POST_MODULE: WFLYSRV0153: Failed to process phase POST_MODULE of deployment \\\"studentInfo.war\\\"
+    Caused by: java.lang.RuntimeException: WFLYSRV0177: Error getting reflective information for class servletPackage.StudentServlet with ClassLoader ModuleClassLoader for Module \\\"deployment.studentInfo.war:main\\\" from Service Module Loader
+    Caused by: java.lang.NoClassDefFoundError: LConfiguration;
+    Caused by: java.lang.ClassNotFoundException: Configuration from [Module \\\"deployment.studentInfo.war:main\\\" from Service Module Loader]\"}}"
