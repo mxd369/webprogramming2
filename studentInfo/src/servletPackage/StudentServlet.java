@@ -12,9 +12,22 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class StudentServlet
  */
-@WebServlet(description = "When info is submitted to the server, a student record is created and inserted into the users table", urlPatterns = { "/StudentServlet" })
+@WebServlet(description = "info is submitted to the server, student record is created and inserted into the users table", urlPatterns = { "/StudentServlet" })
 public class StudentServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
+	
+	// added
+	Configuration cfg = null;
+
+	private String templateDir = "/WEB-INF/templates";
+
+	/**
+	 * @see HttpServlet#HttpServlet()
+	 */
+	public StudentServlet() {
+		super();
+	}
+	// added
 
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
@@ -27,5 +40,22 @@ public class StudentServlet extends HttpServlet {
 		response.setContentType("text/html");
 		writer.println("This is <b>text</b>");
 	}
+	
+	
+	
+	
+	
+	
+	
+	// added
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		doGet(request, response);
+	}
+	// added
+	
+	
 
 }
