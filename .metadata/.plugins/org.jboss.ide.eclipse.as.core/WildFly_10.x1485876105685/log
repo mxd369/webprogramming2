@@ -858,3 +858,39 @@
 
 !ENTRY org.jboss.ide.eclipse.as.core 1 0 2017-02-27 10:28:19.529
 !MESSAGE Module Calculator on WildFly 10.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2017-02-27 10:34:02.653
+!MESSAGE Module ThoughtsBank3 on WildFly 10.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2017-02-27 10:35:08.230
+!MESSAGE Module studentInfo on WildFly 10.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2017-02-27 10:35:12.247
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2017-02-27 10:35:19.632
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2017-02-27 10:35:21.663
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2017-02-27 10:35:21.664
+!MESSAGE Module studentInfo on WildFly 10.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2017-02-27 10:35:28.272
+!MESSAGE Module studentInfo on WildFly 10.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2017-02-27 10:35:41.708
+!MESSAGE Module studentInfo on WildFly 10.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2017-02-27 10:35:58.544
+!MESSAGE Module studentInfo on WildFly 10.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2017-02-27 10:36:03.861
+!MESSAGE Module studentInfo on WildFly 10.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2017-02-27 10:36:18.576
+!MESSAGE Module studentInfo on WildFly 10.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2017-02-27 10:36:23.895
+!MESSAGE Module studentInfo on WildFly 10.x still not ready to be shown in browser. Aborting delay.
