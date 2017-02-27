@@ -73,12 +73,14 @@ public class StudentServlet extends HttpServlet {
 		DefaultObjectWrapperBuilder df = new DefaultObjectWrapperBuilder(Configuration.VERSION_2_3_25);
 		SimpleHash root = new SimpleHash(df.build());
 		
+		/*
 		String fname = request.getParameter("fname");
 		String lname = request.getParameter("lname");
 		String username = fname + " " + lname;
 		root.put("user", username);
 		//Product p = new Product("Computer", "/product/systems.html");
 		root.put("latestProduct", p);
+		*/
 		
 		try {
 			String templateName = "login.ftl";

@@ -1,7 +1,5 @@
 import java.sql.DriverManager;
-
 import java.sql.PreparedStatement;
-
 import java.sql.Connection;
 
 
@@ -12,8 +10,25 @@ public class Main {
 		// TODO Auto-generated method stub
 		//getConnection();
 		createTable();
+		post();
 	}
 	
+
+	public static void post() throws Exception {
+		final String var1 = "John";
+		final String var2 = "Carmack";
+		try {
+			Connection con = getConnection();
+			PreparedStatement posted = con.prepareStatement("INSERT INTO iamalive (first, last) VALUES ('"+var1+"', '"+var2+"')");
+			posted.executeUpdate();
+		} catch(Exception e ){System.out.println(e);}
+		finally {
+			System.out.println("Insert Completed.");
+		}
+	}
+	
+
+
 	
 	public static void createTable() throws Exception{
 		try {
