@@ -1,0 +1,19 @@
+select
+alter
+create
+delete
+drop
+
+
+
+
+
+
+DatabaseAccess:
+	connect()
+	retrieve()
+	insert()
+	delete()
+	update()
+	...
+	close()

@@ -894,3 +894,35 @@
 
 !ENTRY org.jboss.ide.eclipse.as.core 2 0 2017-02-27 10:36:23.895
 !MESSAGE Module studentInfo on WildFly 10.x still not ready to be shown in browser. Aborting delay.
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2017-02-28 09:18:37.663
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2017-02-28 09:18:40.318
+!MESSAGE Module ThoughtsBank3 on WildFly 10.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2017-02-28 09:18:40.320
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2017-02-28 09:34:54.467
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2017-02-28 09:34:59.604
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2017-02-28 09:35:01.634
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2017-02-28 09:35:01.635
+!MESSAGE Module ThoughtsBank3 on WildFly 10.x not yet fully deployed. Waiting...
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2017-02-28 13:48:23.015
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2017-02-28 13:48:25.661
+!MESSAGE Module ThoughtsBank3 on WildFly 10.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2017-02-28 13:48:25.663
+!MESSAGE Server Startup Succeeded

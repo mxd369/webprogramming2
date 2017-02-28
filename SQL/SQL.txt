@@ -1,0 +1,71 @@
+===========================================================Manipulation
+===========================================================Introduction
+-relational database: organizes information into one or more tables.
+-table: collection of data organized into rows and columns. (Tables = Relations)
+example table: celebs
+
+-column: set of data values of particular type.
+example columns: id, name, age
+
+-row: single record in a table.
+id   of 1
+name of Motoko Kusanagi
+age  of 24
+===========================================================Statements
+-----------------------------------SQL Statement
+Clause Example(capital letters):
+	CREATE TABLE
+
+Table Name -> table_name:
+	refers to name of table command is applied to
+
+parameter:
+	a list of columns, data types, or values passed to a clause as an argument
+
+CREATE TABLE table_name (
+	column_1 data_type,
+	column_2 data_type,
+	column_3 data_type,
+);
+===========================================================Create
+-----------------------------------Create a table
+
+CREATE TABLE celebs (id, INTEGER, name, TEXT, age INTEGER);
+
+-----------------------------------INSERT INTO, add a row to table
+
+INSERT INTO celebs (id, name, age) VALUES (1, 'Motoko Kusanagi', 21);
+
+-----------------------------------SELECT * FROM, view the row you just created
+
+SELECT * FROM celebs;
+
+===========================================================Insert
+-----------------------------------
+
+
+
+-----------------------------------
+
+
+===========================================================Select
+-----------------------------------
+
+
+-----------------------------------
+
+
+===========================================================Update
+-----------------------------------
+
+
+-----------------------------------
+===========================================================Alter
+
+
+
+===========================================================Delete
+
+SELECT * FROM contacts;
+
+

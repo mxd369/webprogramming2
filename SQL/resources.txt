@@ -1,0 +1,3 @@
+http://www.vogella.com/tutorials/MySQLJava/article.html
+
+http://zetcode.com/db/mysqljava/
