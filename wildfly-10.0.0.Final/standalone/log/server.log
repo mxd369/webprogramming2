@@ -843,3 +843,611 @@ WFLYCTL0186:   Services which failed to start:      service jboss.deployment.uni
 2017-02-28 13:48:49,892 INFO  [stdout] (default task-12) hello
 2017-02-28 13:48:49,892 INFO  [stdout] (default task-12) moto
 2017-02-28 13:48:49,892 INFO  [stdout] (default task-12) hello moto
+2017-02-28 13:54:10,878 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0220: Server shutdown has been requested.
+2017-02-28 13:54:10,887 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0019: Stopped Driver service with driver-name = project2.war_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2017-02-28 13:54:10,887 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0019: Stopped Driver service with driver-name = project2.war_com.mysql.jdbc.Driver_5_1
+2017-02-28 13:54:10,891 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0019: Stopped Driver service with driver-name = ThoughtsBank3.war_com.mysql.jdbc.Driver_5_1
+2017-02-28 13:54:10,893 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 84) WFLYUT0022: Unregistered web context: /cs4300-Spring2017-FirstServlet
+2017-02-28 13:54:10,893 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 81) WFLYUT0022: Unregistered web context: /ThoughtsBank3
+2017-02-28 13:54:10,893 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 82) WFLYUT0022: Unregistered web context: /jdbcExample2
+2017-02-28 13:54:10,893 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 80) WFLYUT0022: Unregistered web context: /cs4300-Spring2017-Servlet
+2017-02-28 13:54:10,892 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0019: Stopped Driver service with driver-name = ThoughtsBank3.war_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2017-02-28 13:54:10,895 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0019: Stopped Driver service with driver-name = JDBC.war_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2017-02-28 13:54:10,895 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0019: Stopped Driver service with driver-name = jdbcExample2.war_com.mysql.jdbc.Driver_5_1
+2017-02-28 13:54:10,895 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 85) WFLYUT0022: Unregistered web context: /Calculator
+2017-02-28 13:54:10,895 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 83) WFLYUT0022: Unregistered web context: /SampleServlet
+2017-02-28 13:54:10,895 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 86) WFLYUT0022: Unregistered web context: /JDBC2
+2017-02-28 13:54:10,896 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 79) WFLYUT0022: Unregistered web context: /project2
+2017-02-28 13:54:10,896 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0019: Stopped Driver service with driver-name = jdbcExample2.war_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2017-02-28 13:54:10,897 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0019: Stopped Driver service with driver-name = JDBC2.war_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2017-02-28 13:54:10,898 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0019: Stopped Driver service with driver-name = JDBC.war_com.mysql.jdbc.Driver_5_1
+2017-02-28 13:54:10,904 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0019: Stopped Driver service with driver-name = JDBC2.war_com.mysql.jdbc.Driver_5_1
+2017-02-28 13:54:10,905 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 90) WFLYUT0022: Unregistered web context: /JDBC
+2017-02-28 13:54:10,905 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 87) WFLYUT0022: Unregistered web context: /ThoughtsBank
+2017-02-28 13:54:10,912 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 80) WFLYUT0022: Unregistered web context: /FreeMarker
+2017-02-28 13:54:10,926 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0019: Host default-host stopping
+2017-02-28 13:54:10,934 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2017-02-28 13:54:10,957 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-7) HV000001: Hibernate Validator 5.2.3.Final
+2017-02-28 13:54:11,050 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2017-02-28 13:54:11,051 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment Calculator.war (runtime-name: Calculator.war) in 166ms
+2017-02-28 13:54:11,052 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment cs4300-Spring2017-Servlet.war (runtime-name: cs4300-Spring2017-Servlet.war) in 167ms
+2017-02-28 13:54:11,052 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment cs4300-Spring2017-FirstServlet.war (runtime-name: cs4300-Spring2017-FirstServlet.war) in 167ms
+2017-02-28 13:54:11,052 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment ThoughtsBank.war (runtime-name: ThoughtsBank.war) in 167ms
+2017-02-28 13:54:11,053 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment SampleServlet.war (runtime-name: SampleServlet.war) in 168ms
+2017-02-28 13:54:11,053 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment project2.war (runtime-name: project2.war) in 167ms
+2017-02-28 13:54:11,054 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment JDBC.war (runtime-name: JDBC.war) in 168ms
+2017-02-28 13:54:11,054 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment jdbcExample2.war (runtime-name: jdbcExample2.war) in 168ms
+2017-02-28 13:54:11,054 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment JDBC2.war (runtime-name: JDBC2.war) in 169ms
+2017-02-28 13:54:11,055 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment ThoughtsBank3.war (runtime-name: ThoughtsBank3.war) in 175ms
+2017-02-28 13:54:11,055 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0008: Undertow HTTP listener default suspending
+2017-02-28 13:54:11,056 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment FreeMarker.war (runtime-name: FreeMarker.war) in 170ms
+2017-02-28 13:54:11,056 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2017-02-28 13:54:11,057 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0004: Undertow 1.3.15.Final stopping
+2017-02-28 13:54:11,062 INFO  [org.jboss.as] (MSC service thread 1-4) WFLYSRV0050: WildFly Full 10.0.0.Final (WildFly Core 2.0.10.Final) stopped in 169ms
+2017-02-28 13:54:16,737 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.1.Final
+2017-02-28 13:54:16,908 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2017-02-28 13:54:16,966 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0049: WildFly Full 10.0.0.Final (WildFly Core 2.0.10.Final) starting
+2017-02-28 13:54:16,967 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	awt.toolkit = sun.lwawt.macosx.LWCToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	ftp.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	gopherProxySet = false
+	http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	java.awt.graphicsenv = sun.awt.CGraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.lwawt.macosx.CPrinterJob
+	java.class.path = /Users/MXD/Sites/webprogramming/wildfly-10.0.0.Final/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/endorsed
+	java.ext.dirs = /Users/MXD/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+	java.home = /Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre
+	java.io.tmpdir = /var/folders/f8/00sjgpv57276s43ypg52k8kr0000gn/T/
+	java.library.path = /Users/MXD/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_20-b26
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_20
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.20-b23
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = /Users/MXD/Sites/webprogramming/wildfly-10.0.0.Final
+	jboss.host.name = s172-20-210-h149
+	jboss.modules.dir = /Users/MXD/Sites/webprogramming/wildfly-10.0.0.Final/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = s172-20-210-h149
+	jboss.qualified.host.name = s172-20-210-h149.paws.uga.edu
+	jboss.server.base.dir = /Users/MXD/Sites/webprogramming/wildfly-10.0.0.Final/standalone
+	jboss.server.config.dir = /Users/MXD/Sites/webprogramming/wildfly-10.0.0.Final/standalone/configuration
+	jboss.server.data.dir = /Users/MXD/Sites/webprogramming/wildfly-10.0.0.Final/standalone/data
+	jboss.server.deploy.dir = /Users/MXD/Sites/webprogramming/wildfly-10.0.0.Final/standalone/data/content
+	jboss.server.log.dir = /Users/MXD/Sites/webprogramming/wildfly-10.0.0.Final/standalone/log
+	jboss.server.name = s172-20-210-h149
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /Users/MXD/Sites/webprogramming/wildfly-10.0.0.Final/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/Users/MXD/Sites/webprogramming/wildfly-10.0.0.Final/standalone/configuration/logging.properties
+	module.path = /Users/MXD/Sites/webprogramming/wildfly-10.0.0.Final/modules
+	org.jboss.boot.log.file = /Users/MXD/Sites/webprogramming/wildfly-10.0.0.Final/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = x86_64
+	os.name = Mac OS X
+	os.version = 10.11.4
+	path.separator = :
+	program.name = JBossTools: WildFly 10.x
+	socksNonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	sun.arch.data.model = 64
+	sun.boot.class.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/classes
+	sun.boot.library.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.io.unicode.encoding = UnicodeBig
+	sun.java.command = org.jboss.modules.Main -mp /Users/MXD/Sites/webprogramming/wildfly-10.0.0.Final/modules org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=/Users/MXD/Sites/webprogramming/wildfly-10.0.0.Final/standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = US
+	user.dir = /Users/MXD/Sites/webprogramming/wildfly-10.0.0.Final/bin
+	user.home = /Users/MXD
+	user.language = en
+	user.name = MXD
+	user.timezone = America/New_York
+2017-02-28 13:54:16,967 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -Dprogram.name=JBossTools: WildFly 10.x -Xms64m -Xmx512m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=/Users/MXD/Sites/webprogramming/wildfly-10.0.0.Final/standalone/log/boot.log -Dlogging.configuration=file:/Users/MXD/Sites/webprogramming/wildfly-10.0.0.Final/standalone/configuration/logging.properties -Djboss.home.dir=/Users/MXD/Sites/webprogramming/wildfly-10.0.0.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=UTF-8 
+2017-02-28 13:54:17,758 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0015: Re-attempting failed deployment studentInfo.war
+2017-02-28 13:54:17,761 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found JDBC.war in deployment directory. To trigger deployment create a file called JDBC.war.dodeploy
+2017-02-28 13:54:17,761 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found jdbcExample2.war in deployment directory. To trigger deployment create a file called jdbcExample2.war.dodeploy
+2017-02-28 13:54:17,761 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found Calculator.war in deployment directory. To trigger deployment create a file called Calculator.war.dodeploy
+2017-02-28 13:54:17,761 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found project2.war in deployment directory. To trigger deployment create a file called project2.war.dodeploy
+2017-02-28 13:54:17,762 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found cs4300-Spring2017-FirstServlet.war in deployment directory. To trigger deployment create a file called cs4300-Spring2017-FirstServlet.war.dodeploy
+2017-02-28 13:54:17,762 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found SampleServlet.war in deployment directory. To trigger deployment create a file called SampleServlet.war.dodeploy
+2017-02-28 13:54:17,762 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found studentInfo.war in deployment directory. To trigger deployment create a file called studentInfo.war.dodeploy
+2017-02-28 13:54:17,762 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found ThoughtsBank3.war in deployment directory. To trigger deployment create a file called ThoughtsBank3.war.dodeploy
+2017-02-28 13:54:17,762 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found FreeMarker.war in deployment directory. To trigger deployment create a file called FreeMarker.war.dodeploy
+2017-02-28 13:54:17,762 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found ThoughtsBank.war in deployment directory. To trigger deployment create a file called ThoughtsBank.war.dodeploy
+2017-02-28 13:54:17,763 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found JDBC2.war in deployment directory. To trigger deployment create a file called JDBC2.war.dodeploy
+2017-02-28 13:54:17,763 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found cs4300-Spring2017-Servlet.war in deployment directory. To trigger deployment create a file called cs4300-Spring2017-Servlet.war.dodeploy
+2017-02-28 13:54:17,795 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2017-02-28 13:54:17,808 INFO  [org.xnio] (MSC service thread 1-5) XNIO version 3.3.4.Final
+2017-02-28 13:54:17,813 INFO  [org.xnio.nio] (MSC service thread 1-5) XNIO NIO Implementation Version 3.3.4.Final
+2017-02-28 13:54:17,835 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2017-02-28 13:54:17,844 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2017-02-28 13:54:17,848 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 16 core threads with 128 task threads based on your 8 available processors
+2017-02-28 13:54:17,855 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2017-02-28 13:54:17,885 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2017-02-28 13:54:17,960 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2017-02-28 13:54:17,967 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2017-02-28 13:54:17,968 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0003: Undertow 1.3.15.Final starting
+2017-02-28 13:54:17,968 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0003: Undertow 1.3.15.Final starting
+2017-02-28 13:54:17,973 INFO  [org.jboss.as.security] (MSC service thread 1-2) WFLYSEC0001: Current PicketBox version=4.9.4.Final
+2017-02-28 13:54:17,977 INFO  [org.jboss.as.connector] (MSC service thread 1-7) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.2.Final)
+2017-02-28 13:54:17,982 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2017-02-28 13:54:17,992 INFO  [org.jboss.remoting] (MSC service thread 1-3) JBoss Remoting version 4.0.18.Final
+2017-02-28 13:54:17,992 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = h2
+2017-02-28 13:54:18,046 INFO  [org.jboss.as.naming] (MSC service thread 1-2) WFLYNAM0003: Starting Naming Service
+2017-02-28 13:54:18,046 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-7) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2017-02-28 13:54:18,133 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path '/Users/MXD/Sites/webprogramming/wildfly-10.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2017-02-28 13:54:18,162 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0012: Started server default-server.
+2017-02-28 13:54:18,164 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0018: Host default-host starting
+2017-02-28 13:54:18,267 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2017-02-28 13:54:18,291 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2017-02-28 13:54:18,291 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2017-02-28 13:54:18,380 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2017-02-28 13:54:18,495 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "FreeMarker.war" (runtime-name: "FreeMarker.war")
+2017-02-28 13:54:18,495 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "studentInfo.war" (runtime-name: "studentInfo.war")
+2017-02-28 13:54:18,495 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "cs4300-Spring2017-FirstServlet.war" (runtime-name: "cs4300-Spring2017-FirstServlet.war")
+2017-02-28 13:54:18,495 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "SampleServlet.war" (runtime-name: "SampleServlet.war")
+2017-02-28 13:54:18,496 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "cs4300-Spring2017-Servlet.war" (runtime-name: "cs4300-Spring2017-Servlet.war")
+2017-02-28 13:54:18,496 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "JDBC.war" (runtime-name: "JDBC.war")
+2017-02-28 13:54:18,497 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "ThoughtsBank3.war" (runtime-name: "ThoughtsBank3.war")
+2017-02-28 13:54:18,497 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "Calculator.war" (runtime-name: "Calculator.war")
+2017-02-28 13:54:18,497 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "ThoughtsBank.war" (runtime-name: "ThoughtsBank.war")
+2017-02-28 13:54:18,498 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "jdbcExample2.war" (runtime-name: "jdbcExample2.war")
+2017-02-28 13:54:18,498 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "JDBC2.war" (runtime-name: "JDBC2.war")
+2017-02-28 13:54:18,497 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "project2.war" (runtime-name: "project2.war")
+2017-02-28 13:54:18,515 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-6) WFLYDS0013: Started FileSystemDeploymentService for directory /Users/MXD/Sites/webprogramming/wildfly-10.0.0.Final/standalone/deployments
+2017-02-28 13:54:18,745 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-3) ISPN000128: Infinispan version: Infinispan 'Mahou' 8.1.0.Final
+2017-02-28 13:54:18,745 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-5) ISPN000128: Infinispan version: Infinispan 'Mahou' 8.1.0.Final
+2017-02-28 13:54:18,745 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-8) ISPN000128: Infinispan version: Infinispan 'Mahou' 8.1.0.Final
+2017-02-28 13:54:18,768 INFO  [org.jboss.ws.common.management] (MSC service thread 1-2) JBWS022052: Starting JBossWS 5.1.3.Final (Apache CXF 3.1.4) 
+2017-02-28 13:54:19,561 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-8) MSC000001: Failed to start service jboss.deployment.unit."studentInfo.war".POST_MODULE: org.jboss.msc.service.StartException in service jboss.deployment.unit."studentInfo.war".POST_MODULE: WFLYSRV0153: Failed to process phase POST_MODULE of deployment "studentInfo.war"
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:154)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.RuntimeException: WFLYSRV0177: Error getting reflective information for class servletPackage.StudentServlet with ClassLoader ModuleClassLoader for Module "deployment.studentInfo.war:main" from Service Module Loader
+	at org.jboss.as.server.deployment.reflect.DeploymentReflectionIndex.getClassIndex(DeploymentReflectionIndex.java:70)
+	at org.jboss.as.ee.metadata.MethodAnnotationAggregator.runtimeAnnotationInformation(MethodAnnotationAggregator.java:57)
+	at org.jboss.as.ee.component.deployers.InterceptorAnnotationProcessor.handleAnnotations(InterceptorAnnotationProcessor.java:106)
+	at org.jboss.as.ee.component.deployers.InterceptorAnnotationProcessor.processComponentConfig(InterceptorAnnotationProcessor.java:91)
+	at org.jboss.as.ee.component.deployers.InterceptorAnnotationProcessor.deploy(InterceptorAnnotationProcessor.java:76)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:147)
+	... 5 more
+Caused by: java.lang.NoClassDefFoundError: LConfiguration;
+	at java.lang.Class.getDeclaredFields0(Native Method)
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2570)
+	at java.lang.Class.getDeclaredFields(Class.java:1903)
+	at org.jboss.as.server.deployment.reflect.ClassReflectionIndex.<init>(ClassReflectionIndex.java:72)
+	at org.jboss.as.server.deployment.reflect.DeploymentReflectionIndex.getClassIndex(DeploymentReflectionIndex.java:66)
+	... 10 more
+Caused by: java.lang.ClassNotFoundException: Configuration from [Module "deployment.studentInfo.war:main" from Service Module Loader]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:198)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:363)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:351)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:93)
+	... 15 more
+
+2017-02-28 13:54:19,678 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2017-02-28 13:54:19,678 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2017-02-28 13:54:19,679 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.fabric.jdbc.FabricMySQLDriver (version 5.1)
+2017-02-28 13:54:19,679 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.fabric.jdbc.FabricMySQLDriver (version 5.1)
+2017-02-28 13:54:19,720 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = JDBC.war_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2017-02-28 13:54:19,720 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = JDBC.war_com.mysql.jdbc.Driver_5_1
+2017-02-28 13:54:19,720 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = ThoughtsBank3.war_com.mysql.jdbc.Driver_5_1
+2017-02-28 13:54:19,720 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = ThoughtsBank3.war_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2017-02-28 13:54:19,724 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2017-02-28 13:54:19,725 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.fabric.jdbc.FabricMySQLDriver (version 5.1)
+2017-02-28 13:54:19,725 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2017-02-28 13:54:19,726 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.fabric.jdbc.FabricMySQLDriver (version 5.1)
+2017-02-28 13:54:19,803 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = JDBC2.war_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2017-02-28 13:54:19,803 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = JDBC2.war_com.mysql.jdbc.Driver_5_1
+2017-02-28 13:54:19,803 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = jdbcExample2.war_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2017-02-28 13:54:19,804 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = jdbcExample2.war_com.mysql.jdbc.Driver_5_1
+2017-02-28 13:54:19,819 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2017-02-28 13:54:19,820 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.fabric.jdbc.FabricMySQLDriver (version 5.1)
+2017-02-28 13:54:19,857 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Started Driver service with driver-name = project2.war_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2017-02-28 13:54:19,857 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = project2.war_com.mysql.jdbc.Driver_5_1
+2017-02-28 13:54:20,117 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 69) WFLYUT0021: Registered web context: /cs4300-Spring2017-Servlet
+2017-02-28 13:54:20,117 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 67) WFLYUT0021: Registered web context: /ThoughtsBank
+2017-02-28 13:54:20,117 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 61) WFLYUT0021: Registered web context: /Calculator
+2017-02-28 13:54:20,117 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 64) WFLYUT0021: Registered web context: /JDBC2
+2017-02-28 13:54:20,118 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 71) WFLYUT0021: Registered web context: /cs4300-Spring2017-FirstServlet
+2017-02-28 13:54:20,118 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 73) WFLYUT0021: Registered web context: /JDBC
+2017-02-28 13:54:20,118 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 70) WFLYUT0021: Registered web context: /jdbcExample2
+2017-02-28 13:54:20,118 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 66) WFLYUT0021: Registered web context: /project2
+2017-02-28 13:54:20,118 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 62) WFLYUT0021: Registered web context: /ThoughtsBank3
+2017-02-28 13:54:20,118 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 60) WFLYUT0021: Registered web context: /SampleServlet
+2017-02-28 13:54:20,119 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 63) WFLYUT0021: Registered web context: /FreeMarker
+2017-02-28 13:54:20,125 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("deploy") failed - address: ([("deployment" => "studentInfo.war")]) - failure description: {"WFLYCTL0080: Failed services" => {"jboss.deployment.unit.\"studentInfo.war\".POST_MODULE" => "org.jboss.msc.service.StartException in service jboss.deployment.unit.\"studentInfo.war\".POST_MODULE: WFLYSRV0153: Failed to process phase POST_MODULE of deployment \"studentInfo.war\"
+    Caused by: java.lang.RuntimeException: WFLYSRV0177: Error getting reflective information for class servletPackage.StudentServlet with ClassLoader ModuleClassLoader for Module \"deployment.studentInfo.war:main\" from Service Module Loader
+    Caused by: java.lang.NoClassDefFoundError: LConfiguration;
+    Caused by: java.lang.ClassNotFoundException: Configuration from [Module \"deployment.studentInfo.war:main\" from Service Module Loader]"}}
+2017-02-28 13:54:20,143 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "ThoughtsBank3.war" (runtime-name : "ThoughtsBank3.war")
+2017-02-28 13:54:20,143 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "ThoughtsBank.war" (runtime-name : "ThoughtsBank.war")
+2017-02-28 13:54:20,144 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "studentInfo.war" (runtime-name : "studentInfo.war")
+2017-02-28 13:54:20,144 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "SampleServlet.war" (runtime-name : "SampleServlet.war")
+2017-02-28 13:54:20,144 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "project2.war" (runtime-name : "project2.war")
+2017-02-28 13:54:20,144 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "jdbcExample2.war" (runtime-name : "jdbcExample2.war")
+2017-02-28 13:54:20,144 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "JDBC2.war" (runtime-name : "JDBC2.war")
+2017-02-28 13:54:20,144 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "JDBC.war" (runtime-name : "JDBC.war")
+2017-02-28 13:54:20,144 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "FreeMarker.war" (runtime-name : "FreeMarker.war")
+2017-02-28 13:54:20,145 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "cs4300-Spring2017-Servlet.war" (runtime-name : "cs4300-Spring2017-Servlet.war")
+2017-02-28 13:54:20,145 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "cs4300-Spring2017-FirstServlet.war" (runtime-name : "cs4300-Spring2017-FirstServlet.war")
+2017-02-28 13:54:20,145 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "Calculator.war" (runtime-name : "Calculator.war")
+2017-02-28 13:54:20,145 INFO  [org.jboss.as.controller] (Controller Boot Thread) WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service jboss.deployment.unit."studentInfo.war".POST_MODULE: org.jboss.msc.service.StartException in service jboss.deployment.unit."studentInfo.war".POST_MODULE: WFLYSRV0153: Failed to process phase POST_MODULE of deployment "studentInfo.war"
+
+2017-02-28 13:54:20,221 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2017-02-28 13:54:20,221 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2017-02-28 13:54:20,221 ERROR [org.jboss.as] (Controller Boot Thread) WFLYSRV0026: WildFly Full 10.0.0.Final (WildFly Core 2.0.10.Final) started (with errors) in 3752ms - Started 1099 of 1451 services (1 services failed or missing dependencies, 494 services are lazy, passive or on-demand)
+2017-02-28 13:54:20,271 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment studentInfo.war (runtime-name: studentInfo.war) in 4ms
+2017-02-28 13:54:20,311 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "studentInfo.war" (runtime-name: "studentInfo.war")
+2017-02-28 13:54:20,311 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 1) WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service jboss.deployment.unit."studentInfo.war".POST_MODULE
+
+2017-02-28 13:54:25,225 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found studentInfo.war in deployment directory. To trigger deployment create a file called studentInfo.war.dodeploy
+2017-02-28 14:02:45,828 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0220: Server shutdown has been requested.
+2017-02-28 14:02:45,834 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0019: Stopped Driver service with driver-name = project2.war_com.mysql.jdbc.Driver_5_1
+2017-02-28 14:02:45,838 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0019: Stopped Driver service with driver-name = ThoughtsBank3.war_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2017-02-28 14:02:45,838 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0019: Stopped Driver service with driver-name = ThoughtsBank3.war_com.mysql.jdbc.Driver_5_1
+2017-02-28 14:02:45,839 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0019: Stopped Driver service with driver-name = project2.war_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2017-02-28 14:02:45,839 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0019: Stopped Driver service with driver-name = jdbcExample2.war_com.mysql.jdbc.Driver_5_1
+2017-02-28 14:02:45,839 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0019: Stopped Driver service with driver-name = JDBC2.war_com.mysql.jdbc.Driver_5_1
+2017-02-28 14:02:45,839 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0019: Stopped Driver service with driver-name = jdbcExample2.war_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2017-02-28 14:02:45,842 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0019: Stopped Driver service with driver-name = JDBC.war_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2017-02-28 14:02:45,843 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0019: Stopped Driver service with driver-name = JDBC.war_com.mysql.jdbc.Driver_5_1
+2017-02-28 14:02:45,843 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0019: Stopped Driver service with driver-name = JDBC2.war_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2017-02-28 14:02:45,854 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 93) WFLYUT0022: Unregistered web context: /cs4300-Spring2017-FirstServlet
+2017-02-28 14:02:45,854 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 80) WFLYUT0022: Unregistered web context: /JDBC
+2017-02-28 14:02:45,855 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 83) WFLYUT0022: Unregistered web context: /Calculator
+2017-02-28 14:02:45,855 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 90) WFLYUT0022: Unregistered web context: /SampleServlet
+2017-02-28 14:02:45,854 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 78) WFLYUT0022: Unregistered web context: /cs4300-Spring2017-Servlet
+2017-02-28 14:02:45,855 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 89) WFLYUT0022: Unregistered web context: /jdbcExample2
+2017-02-28 14:02:45,856 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 81) WFLYUT0022: Unregistered web context: /ThoughtsBank3
+2017-02-28 14:02:45,856 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 79) WFLYUT0022: Unregistered web context: /JDBC2
+2017-02-28 14:02:45,856 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 82) WFLYUT0022: Unregistered web context: /FreeMarker
+2017-02-28 14:02:45,856 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 85) WFLYUT0022: Unregistered web context: /ThoughtsBank
+2017-02-28 14:02:45,856 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 86) WFLYUT0022: Unregistered web context: /project2
+2017-02-28 14:02:45,863 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0019: Host default-host stopping
+2017-02-28 14:02:45,867 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2017-02-28 14:02:45,892 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-6) HV000001: Hibernate Validator 5.2.3.Final
+2017-02-28 14:02:45,975 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2017-02-28 14:02:45,977 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment SampleServlet.war (runtime-name: SampleServlet.war) in 146ms
+2017-02-28 14:02:45,977 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment ThoughtsBank.war (runtime-name: ThoughtsBank.war) in 145ms
+2017-02-28 14:02:45,978 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment cs4300-Spring2017-FirstServlet.war (runtime-name: cs4300-Spring2017-FirstServlet.war) in 146ms
+2017-02-28 14:02:45,978 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment FreeMarker.war (runtime-name: FreeMarker.war) in 146ms
+2017-02-28 14:02:45,978 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment project2.war (runtime-name: project2.war) in 146ms
+2017-02-28 14:02:45,978 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment jdbcExample2.war (runtime-name: jdbcExample2.war) in 146ms
+2017-02-28 14:02:45,978 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment ThoughtsBank3.war (runtime-name: ThoughtsBank3.war) in 146ms
+2017-02-28 14:02:45,979 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment cs4300-Spring2017-Servlet.war (runtime-name: cs4300-Spring2017-Servlet.war) in 146ms
+2017-02-28 14:02:45,979 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment JDBC.war (runtime-name: JDBC.war) in 147ms
+2017-02-28 14:02:45,979 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment Calculator.war (runtime-name: Calculator.war) in 147ms
+2017-02-28 14:02:45,979 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment JDBC2.war (runtime-name: JDBC2.war) in 147ms
+2017-02-28 14:02:45,980 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0008: Undertow HTTP listener default suspending
+2017-02-28 14:02:45,980 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2017-02-28 14:02:45,981 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0004: Undertow 1.3.15.Final stopping
+2017-02-28 14:02:45,985 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0050: WildFly Full 10.0.0.Final (WildFly Core 2.0.10.Final) stopped in 149ms
+2017-02-28 14:02:53,695 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.1.Final
+2017-02-28 14:02:53,864 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2017-02-28 14:02:53,920 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0049: WildFly Full 10.0.0.Final (WildFly Core 2.0.10.Final) starting
+2017-02-28 14:02:53,921 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	awt.toolkit = sun.lwawt.macosx.LWCToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	ftp.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	gopherProxySet = false
+	http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	java.awt.graphicsenv = sun.awt.CGraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.lwawt.macosx.CPrinterJob
+	java.class.path = /Users/MXD/Sites/webprogramming/wildfly-10.0.0.Final/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/endorsed
+	java.ext.dirs = /Users/MXD/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+	java.home = /Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre
+	java.io.tmpdir = /var/folders/f8/00sjgpv57276s43ypg52k8kr0000gn/T/
+	java.library.path = /Users/MXD/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_20-b26
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_20
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.20-b23
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = /Users/MXD/Sites/webprogramming/wildfly-10.0.0.Final
+	jboss.host.name = s172-20-210-h149
+	jboss.modules.dir = /Users/MXD/Sites/webprogramming/wildfly-10.0.0.Final/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = s172-20-210-h149
+	jboss.qualified.host.name = s172-20-210-h149.paws.uga.edu
+	jboss.server.base.dir = /Users/MXD/Sites/webprogramming/wildfly-10.0.0.Final/standalone
+	jboss.server.config.dir = /Users/MXD/Sites/webprogramming/wildfly-10.0.0.Final/standalone/configuration
+	jboss.server.data.dir = /Users/MXD/Sites/webprogramming/wildfly-10.0.0.Final/standalone/data
+	jboss.server.deploy.dir = /Users/MXD/Sites/webprogramming/wildfly-10.0.0.Final/standalone/data/content
+	jboss.server.log.dir = /Users/MXD/Sites/webprogramming/wildfly-10.0.0.Final/standalone/log
+	jboss.server.name = s172-20-210-h149
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /Users/MXD/Sites/webprogramming/wildfly-10.0.0.Final/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/Users/MXD/Sites/webprogramming/wildfly-10.0.0.Final/standalone/configuration/logging.properties
+	module.path = /Users/MXD/Sites/webprogramming/wildfly-10.0.0.Final/modules
+	org.jboss.boot.log.file = /Users/MXD/Sites/webprogramming/wildfly-10.0.0.Final/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = x86_64
+	os.name = Mac OS X
+	os.version = 10.11.4
+	path.separator = :
+	program.name = JBossTools: WildFly 10.x
+	socksNonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	sun.arch.data.model = 64
+	sun.boot.class.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/classes
+	sun.boot.library.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.io.unicode.encoding = UnicodeBig
+	sun.java.command = org.jboss.modules.Main -mp /Users/MXD/Sites/webprogramming/wildfly-10.0.0.Final/modules org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=/Users/MXD/Sites/webprogramming/wildfly-10.0.0.Final/standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = US
+	user.dir = /Users/MXD/Sites/webprogramming/wildfly-10.0.0.Final/bin
+	user.home = /Users/MXD
+	user.language = en
+	user.name = MXD
+	user.timezone = America/New_York
+2017-02-28 14:02:53,922 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -Dprogram.name=JBossTools: WildFly 10.x -Xms64m -Xmx512m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=/Users/MXD/Sites/webprogramming/wildfly-10.0.0.Final/standalone/log/boot.log -Dlogging.configuration=file:/Users/MXD/Sites/webprogramming/wildfly-10.0.0.Final/standalone/configuration/logging.properties -Djboss.home.dir=/Users/MXD/Sites/webprogramming/wildfly-10.0.0.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=UTF-8 
+2017-02-28 14:02:54,713 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0015: Re-attempting failed deployment studentInfo.war
+2017-02-28 14:02:54,717 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found JDBC.war in deployment directory. To trigger deployment create a file called JDBC.war.dodeploy
+2017-02-28 14:02:54,717 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found jdbcExample2.war in deployment directory. To trigger deployment create a file called jdbcExample2.war.dodeploy
+2017-02-28 14:02:54,717 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found Calculator.war in deployment directory. To trigger deployment create a file called Calculator.war.dodeploy
+2017-02-28 14:02:54,717 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found project2.war in deployment directory. To trigger deployment create a file called project2.war.dodeploy
+2017-02-28 14:02:54,717 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found cs4300-Spring2017-FirstServlet.war in deployment directory. To trigger deployment create a file called cs4300-Spring2017-FirstServlet.war.dodeploy
+2017-02-28 14:02:54,718 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found SampleServlet.war in deployment directory. To trigger deployment create a file called SampleServlet.war.dodeploy
+2017-02-28 14:02:54,718 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found studentInfo.war in deployment directory. To trigger deployment create a file called studentInfo.war.dodeploy
+2017-02-28 14:02:54,718 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found ThoughtsBank3.war in deployment directory. To trigger deployment create a file called ThoughtsBank3.war.dodeploy
+2017-02-28 14:02:54,718 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found FreeMarker.war in deployment directory. To trigger deployment create a file called FreeMarker.war.dodeploy
+2017-02-28 14:02:54,718 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found ThoughtsBank.war in deployment directory. To trigger deployment create a file called ThoughtsBank.war.dodeploy
+2017-02-28 14:02:54,719 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found JDBC2.war in deployment directory. To trigger deployment create a file called JDBC2.war.dodeploy
+2017-02-28 14:02:54,719 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found cs4300-Spring2017-Servlet.war in deployment directory. To trigger deployment create a file called cs4300-Spring2017-Servlet.war.dodeploy
+2017-02-28 14:02:54,756 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2017-02-28 14:02:54,769 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.3.4.Final
+2017-02-28 14:02:54,775 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.3.4.Final
+2017-02-28 14:02:54,796 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2017-02-28 14:02:54,821 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2017-02-28 14:02:54,826 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 16 core threads with 128 task threads based on your 8 available processors
+2017-02-28 14:02:54,826 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2017-02-28 14:02:54,827 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2017-02-28 14:02:54,828 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2017-02-28 14:02:54,830 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2017-02-28 14:02:54,834 INFO  [org.jboss.as.security] (MSC service thread 1-8) WFLYSEC0001: Current PicketBox version=4.9.4.Final
+2017-02-28 14:02:54,946 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0003: Undertow 1.3.15.Final starting
+2017-02-28 14:02:54,946 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0003: Undertow 1.3.15.Final starting
+2017-02-28 14:02:54,960 INFO  [org.jboss.as.connector] (MSC service thread 1-7) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.2.Final)
+2017-02-28 14:02:54,963 INFO  [org.jboss.remoting] (MSC service thread 1-3) JBoss Remoting version 4.0.18.Final
+2017-02-28 14:02:54,963 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2017-02-28 14:02:54,973 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = h2
+2017-02-28 14:02:55,002 INFO  [org.jboss.as.naming] (MSC service thread 1-6) WFLYNAM0003: Starting Naming Service
+2017-02-28 14:02:55,002 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-7) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2017-02-28 14:02:55,108 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path '/Users/MXD/Sites/webprogramming/wildfly-10.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2017-02-28 14:02:55,142 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0012: Started server default-server.
+2017-02-28 14:02:55,144 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0018: Host default-host starting
+2017-02-28 14:02:55,245 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2017-02-28 14:02:55,270 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2017-02-28 14:02:55,270 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2017-02-28 14:02:55,377 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2017-02-28 14:02:55,463 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-4) WFLYDS0013: Started FileSystemDeploymentService for directory /Users/MXD/Sites/webprogramming/wildfly-10.0.0.Final/standalone/deployments
+2017-02-28 14:02:55,466 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "cs4300-Spring2017-Servlet.war" (runtime-name: "cs4300-Spring2017-Servlet.war")
+2017-02-28 14:02:55,467 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "FreeMarker.war" (runtime-name: "FreeMarker.war")
+2017-02-28 14:02:55,468 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "jdbcExample2.war" (runtime-name: "jdbcExample2.war")
+2017-02-28 14:02:55,468 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "ThoughtsBank.war" (runtime-name: "ThoughtsBank.war")
+2017-02-28 14:02:55,468 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "cs4300-Spring2017-FirstServlet.war" (runtime-name: "cs4300-Spring2017-FirstServlet.war")
+2017-02-28 14:02:55,468 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "JDBC.war" (runtime-name: "JDBC.war")
+2017-02-28 14:02:55,469 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "JDBC2.war" (runtime-name: "JDBC2.war")
+2017-02-28 14:02:55,469 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "ThoughtsBank3.war" (runtime-name: "ThoughtsBank3.war")
+2017-02-28 14:02:55,469 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "project2.war" (runtime-name: "project2.war")
+2017-02-28 14:02:55,469 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "studentInfo.war" (runtime-name: "studentInfo.war")
+2017-02-28 14:02:55,469 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "SampleServlet.war" (runtime-name: "SampleServlet.war")
+2017-02-28 14:02:55,471 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "Calculator.war" (runtime-name: "Calculator.war")
+2017-02-28 14:02:55,702 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-1) ISPN000128: Infinispan version: Infinispan 'Mahou' 8.1.0.Final
+2017-02-28 14:02:55,732 INFO  [org.jboss.ws.common.management] (MSC service thread 1-8) JBWS022052: Starting JBossWS 5.1.3.Final (Apache CXF 3.1.4) 
+2017-02-28 14:02:56,650 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2017-02-28 14:02:56,650 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2017-02-28 14:02:56,651 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2017-02-28 14:02:56,651 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.fabric.jdbc.FabricMySQLDriver (version 5.1)
+2017-02-28 14:02:56,651 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.fabric.jdbc.FabricMySQLDriver (version 5.1)
+2017-02-28 14:02:56,651 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.fabric.jdbc.FabricMySQLDriver (version 5.1)
+2017-02-28 14:02:56,652 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2017-02-28 14:02:56,653 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.fabric.jdbc.FabricMySQLDriver (version 5.1)
+2017-02-28 14:02:56,694 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = ThoughtsBank3.war_com.mysql.jdbc.Driver_5_1
+2017-02-28 14:02:56,694 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = ThoughtsBank3.war_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2017-02-28 14:02:56,695 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = JDBC2.war_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2017-02-28 14:02:56,695 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = JDBC2.war_com.mysql.jdbc.Driver_5_1
+2017-02-28 14:02:56,704 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = jdbcExample2.war_com.mysql.jdbc.Driver_5_1
+2017-02-28 14:02:56,704 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = JDBC.war_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2017-02-28 14:02:56,705 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = jdbcExample2.war_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2017-02-28 14:02:56,705 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = JDBC.war_com.mysql.jdbc.Driver_5_1
+2017-02-28 14:02:56,797 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2017-02-28 14:02:56,799 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.fabric.jdbc.FabricMySQLDriver (version 5.1)
+2017-02-28 14:02:56,862 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = project2.war_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2017-02-28 14:02:56,863 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = project2.war_com.mysql.jdbc.Driver_5_1
+2017-02-28 14:02:56,871 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-5) MSC000001: Failed to start service jboss.deployment.unit."studentInfo.war".POST_MODULE: org.jboss.msc.service.StartException in service jboss.deployment.unit."studentInfo.war".POST_MODULE: WFLYSRV0153: Failed to process phase POST_MODULE of deployment "studentInfo.war"
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:154)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.RuntimeException: WFLYSRV0177: Error getting reflective information for class servletPackage.StudentServlet with ClassLoader ModuleClassLoader for Module "deployment.studentInfo.war:main" from Service Module Loader
+	at org.jboss.as.server.deployment.reflect.DeploymentReflectionIndex.getClassIndex(DeploymentReflectionIndex.java:70)
+	at org.jboss.as.ee.metadata.MethodAnnotationAggregator.runtimeAnnotationInformation(MethodAnnotationAggregator.java:57)
+	at org.jboss.as.ee.component.deployers.InterceptorAnnotationProcessor.handleAnnotations(InterceptorAnnotationProcessor.java:106)
+	at org.jboss.as.ee.component.deployers.InterceptorAnnotationProcessor.processComponentConfig(InterceptorAnnotationProcessor.java:91)
+	at org.jboss.as.ee.component.deployers.InterceptorAnnotationProcessor.deploy(InterceptorAnnotationProcessor.java:76)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:147)
+	... 5 more
+Caused by: java.lang.NoClassDefFoundError: LConfiguration;
+	at java.lang.Class.getDeclaredFields0(Native Method)
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2570)
+	at java.lang.Class.getDeclaredFields(Class.java:1903)
+	at org.jboss.as.server.deployment.reflect.ClassReflectionIndex.<init>(ClassReflectionIndex.java:72)
+	at org.jboss.as.server.deployment.reflect.DeploymentReflectionIndex.getClassIndex(DeploymentReflectionIndex.java:66)
+	... 10 more
+Caused by: java.lang.ClassNotFoundException: Configuration from [Module "deployment.studentInfo.war:main" from Service Module Loader]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:198)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:363)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:351)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:93)
+	... 15 more
+
+2017-02-28 14:02:57,163 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 58) WFLYUT0021: Registered web context: /ThoughtsBank3
+2017-02-28 14:02:57,163 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 66) WFLYUT0021: Registered web context: /cs4300-Spring2017-Servlet
+2017-02-28 14:02:57,163 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 62) WFLYUT0021: Registered web context: /cs4300-Spring2017-FirstServlet
+2017-02-28 14:02:57,163 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 71) WFLYUT0021: Registered web context: /FreeMarker
+2017-02-28 14:02:57,163 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 61) WFLYUT0021: Registered web context: /Calculator
+2017-02-28 14:02:57,164 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 60) WFLYUT0021: Registered web context: /ThoughtsBank
+2017-02-28 14:02:57,164 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 65) WFLYUT0021: Registered web context: /SampleServlet
+2017-02-28 14:02:57,164 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 70) WFLYUT0021: Registered web context: /project2
+2017-02-28 14:02:57,164 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 68) WFLYUT0021: Registered web context: /JDBC2
+2017-02-28 14:02:57,165 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 69) WFLYUT0021: Registered web context: /jdbcExample2
+2017-02-28 14:02:57,165 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 64) WFLYUT0021: Registered web context: /JDBC
+2017-02-28 14:02:57,170 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("deploy") failed - address: ([("deployment" => "studentInfo.war")]) - failure description: {"WFLYCTL0080: Failed services" => {"jboss.deployment.unit.\"studentInfo.war\".POST_MODULE" => "org.jboss.msc.service.StartException in service jboss.deployment.unit.\"studentInfo.war\".POST_MODULE: WFLYSRV0153: Failed to process phase POST_MODULE of deployment \"studentInfo.war\"
+    Caused by: java.lang.RuntimeException: WFLYSRV0177: Error getting reflective information for class servletPackage.StudentServlet with ClassLoader ModuleClassLoader for Module \"deployment.studentInfo.war:main\" from Service Module Loader
+    Caused by: java.lang.NoClassDefFoundError: LConfiguration;
+    Caused by: java.lang.ClassNotFoundException: Configuration from [Module \"deployment.studentInfo.war:main\" from Service Module Loader]"}}
+2017-02-28 14:02:57,185 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "ThoughtsBank3.war" (runtime-name : "ThoughtsBank3.war")
+2017-02-28 14:02:57,186 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "ThoughtsBank.war" (runtime-name : "ThoughtsBank.war")
+2017-02-28 14:02:57,186 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "studentInfo.war" (runtime-name : "studentInfo.war")
+2017-02-28 14:02:57,186 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "SampleServlet.war" (runtime-name : "SampleServlet.war")
+2017-02-28 14:02:57,186 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "project2.war" (runtime-name : "project2.war")
+2017-02-28 14:02:57,186 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "jdbcExample2.war" (runtime-name : "jdbcExample2.war")
+2017-02-28 14:02:57,186 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "JDBC2.war" (runtime-name : "JDBC2.war")
+2017-02-28 14:02:57,186 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "JDBC.war" (runtime-name : "JDBC.war")
+2017-02-28 14:02:57,186 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "FreeMarker.war" (runtime-name : "FreeMarker.war")
+2017-02-28 14:02:57,186 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "cs4300-Spring2017-Servlet.war" (runtime-name : "cs4300-Spring2017-Servlet.war")
+2017-02-28 14:02:57,186 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "cs4300-Spring2017-FirstServlet.war" (runtime-name : "cs4300-Spring2017-FirstServlet.war")
+2017-02-28 14:02:57,187 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "Calculator.war" (runtime-name : "Calculator.war")
+2017-02-28 14:02:57,187 INFO  [org.jboss.as.controller] (Controller Boot Thread) WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service jboss.deployment.unit."studentInfo.war".POST_MODULE: org.jboss.msc.service.StartException in service jboss.deployment.unit."studentInfo.war".POST_MODULE: WFLYSRV0153: Failed to process phase POST_MODULE of deployment "studentInfo.war"
+
+2017-02-28 14:02:57,273 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2017-02-28 14:02:57,273 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2017-02-28 14:02:57,273 ERROR [org.jboss.as] (Controller Boot Thread) WFLYSRV0026: WildFly Full 10.0.0.Final (WildFly Core 2.0.10.Final) started (with errors) in 3853ms - Started 1099 of 1451 services (1 services failed or missing dependencies, 494 services are lazy, passive or on-demand)
+2017-02-28 14:02:57,330 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment studentInfo.war (runtime-name: studentInfo.war) in 5ms
+2017-02-28 14:02:57,374 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "studentInfo.war" (runtime-name: "studentInfo.war")
+2017-02-28 14:02:57,374 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 1) WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service jboss.deployment.unit."studentInfo.war".POST_MODULE
+
+2017-02-28 14:03:02,258 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found studentInfo.war in deployment directory. To trigger deployment create a file called studentInfo.war.dodeploy
+2017-02-28 14:05:54,761 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0220: Server shutdown has been requested.
+2017-02-28 14:05:54,764 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0019: Stopped Driver service with driver-name = project2.war_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2017-02-28 14:05:54,764 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0019: Stopped Driver service with driver-name = project2.war_com.mysql.jdbc.Driver_5_1
+2017-02-28 14:05:54,770 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0019: Stopped Driver service with driver-name = ThoughtsBank3.war_com.mysql.jdbc.Driver_5_1
+2017-02-28 14:05:54,770 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0019: Stopped Driver service with driver-name = ThoughtsBank3.war_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2017-02-28 14:05:54,771 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0019: Stopped Driver service with driver-name = JDBC2.war_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2017-02-28 14:05:54,771 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 78) WFLYUT0022: Unregistered web context: /cs4300-Spring2017-FirstServlet
+2017-02-28 14:05:54,771 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0019: Stopped Driver service with driver-name = JDBC2.war_com.mysql.jdbc.Driver_5_1
+2017-02-28 14:05:54,771 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 76) WFLYUT0022: Unregistered web context: /cs4300-Spring2017-Servlet
+2017-02-28 14:05:54,771 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 75) WFLYUT0022: Unregistered web context: /jdbcExample2
+2017-02-28 14:05:54,771 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 77) WFLYUT0022: Unregistered web context: /ThoughtsBank3
+2017-02-28 14:05:54,772 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 79) WFLYUT0022: Unregistered web context: /SampleServlet
+2017-02-28 14:05:54,772 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 82) WFLYUT0022: Unregistered web context: /project2
+2017-02-28 14:05:54,773 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 79) WFLYUT0022: Unregistered web context: /Calculator
+2017-02-28 14:05:54,774 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0019: Stopped Driver service with driver-name = jdbcExample2.war_com.mysql.jdbc.Driver_5_1
+2017-02-28 14:05:54,774 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0019: Stopped Driver service with driver-name = JDBC.war_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2017-02-28 14:05:54,775 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 79) WFLYUT0022: Unregistered web context: /ThoughtsBank
+2017-02-28 14:05:54,776 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0019: Stopped Driver service with driver-name = jdbcExample2.war_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2017-02-28 14:05:54,775 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 78) WFLYUT0022: Unregistered web context: /JDBC2
+2017-02-28 14:05:54,777 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0019: Stopped Driver service with driver-name = JDBC.war_com.mysql.jdbc.Driver_5_1
+2017-02-28 14:05:54,779 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 83) WFLYUT0022: Unregistered web context: /JDBC
+2017-02-28 14:05:54,779 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 78) WFLYUT0022: Unregistered web context: /FreeMarker
+2017-02-28 14:05:54,782 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-3) WFLYMAIL0002: Unbound mail session [java:jboss/mail/Default]
+2017-02-28 14:05:54,788 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0019: Host default-host stopping
+2017-02-28 14:05:54,792 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2017-02-28 14:05:54,812 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-6) HV000001: Hibernate Validator 5.2.3.Final
+2017-02-28 14:05:54,892 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2017-02-28 14:05:54,892 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment cs4300-Spring2017-Servlet.war (runtime-name: cs4300-Spring2017-Servlet.war) in 127ms
+2017-02-28 14:05:54,892 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment SampleServlet.war (runtime-name: SampleServlet.war) in 127ms
+2017-02-28 14:05:54,892 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment Calculator.war (runtime-name: Calculator.war) in 128ms
+2017-02-28 14:05:54,892 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment ThoughtsBank.war (runtime-name: ThoughtsBank.war) in 128ms
+2017-02-28 14:05:54,892 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment cs4300-Spring2017-FirstServlet.war (runtime-name: cs4300-Spring2017-FirstServlet.war) in 128ms
+2017-02-28 14:05:54,893 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment project2.war (runtime-name: project2.war) in 128ms
+2017-02-28 14:05:54,893 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment jdbcExample2.war (runtime-name: jdbcExample2.war) in 129ms
+2017-02-28 14:05:54,893 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment JDBC2.war (runtime-name: JDBC2.war) in 128ms
+2017-02-28 14:05:54,893 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0008: Undertow HTTP listener default suspending
+2017-02-28 14:05:54,894 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment FreeMarker.war (runtime-name: FreeMarker.war) in 129ms
+2017-02-28 14:05:54,894 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2017-02-28 14:05:54,894 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment ThoughtsBank3.war (runtime-name: ThoughtsBank3.war) in 131ms
+2017-02-28 14:05:54,894 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment JDBC.war (runtime-name: JDBC.war) in 130ms
+2017-02-28 14:05:54,894 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0004: Undertow 1.3.15.Final stopping
+2017-02-28 14:05:54,898 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0050: WildFly Full 10.0.0.Final (WildFly Core 2.0.10.Final) stopped in 124ms

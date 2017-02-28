@@ -6170,3 +6170,9 @@ Binding(ALT+COMMAND+Z,
 
 !ENTRY org.eclipse.jdt.core 4 0 2017-02-28 13:48:06.636
 !MESSAGE Invalid ZIP archive: WebContent/WEB-INF/templates/register.ftl [in studentInfo]
+
+!ENTRY org.eclipse.jface.text 2 0 2017-02-28 13:53:23.053
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-02-28 13:53:23.053
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
