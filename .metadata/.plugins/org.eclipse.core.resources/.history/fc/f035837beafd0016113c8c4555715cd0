@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<p>Hello Let's go Search Stuff!</p>
+	<button a href="movies.html">Go Search</a></button>
+</body>
+</html>
