@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<title>Movies</title>
+</head>
+<body>
+<h1 id="land">Movies</h1>
+
+<p id="land">Search: "actors, movies, directors"</p>
+
+	<form action="ThoughtBoundary" method="post">
+		<label for="nt">Search DB:</label>
+		<input type="text" name="newthought" id="nt" class="textcl" />
+		<button name="addthought" value="addthought" class="btn">Search!</button>
+		<input type="hidden" name="uname" value="${user}"/>
+	</form>
+
+<!-- 
+
+if textField == "actors"
+	print all actors
+else if textField == "movies"
+	print all movies
+else if textField == "directors"
+	print all directors
+else
+	throw error page
+
+-->
+
+
+</body>
+</html>

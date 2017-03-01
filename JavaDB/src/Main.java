@@ -53,7 +53,7 @@ public class Main {
 		
 		try {
 			String driver = "com.mysql.jdbc.Driver";
-			String url = "jdbc:mysql://localhost:3306/testdb";
+			String url = "jdbc:mysql://localhost:3306/imbd";
 			String username = "root";
 			String password = "336699888";
 			Class.forName(driver);

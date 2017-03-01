@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<title>Search</title>
+</head>
+<body>
+<center>
+	<h1>Movie Info Search</h1>
+	<p>Let's go Search Stuff!</p>
+	<a href="movie.html">Go Search</a>
+</center>
+</body>
+</html>

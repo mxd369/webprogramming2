@@ -1,4 +1,4 @@
 <div id="header">
-	<h3>Thoughts Bank Application</h3>
+	<h3>Moogle "Movie Google"</h3>
 	<p>Welcome ${user}</p>
 </div>	
