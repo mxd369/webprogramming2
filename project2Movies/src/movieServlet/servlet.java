@@ -3,10 +3,12 @@ package movieServlet;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.io.Writer;
-import java.sql.Connection;
+import java.sql.Connection;			// make sure the MySQL server is running
+import java.sql.SQLException;		// make sure the MySQL server is running
+import java.sql.DriverManager;		// make sure the MySQL server is running
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
-import java.sql.SQLException;
+
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -31,7 +33,6 @@ public class servlet extends HttpServlet {
 	Configuration cfg = null;
 
 	private String templateDir = "/WEB-INF/templates";
-
 
 	/**
 	 * @see HttpServlet#HttpServlet()
@@ -92,7 +93,18 @@ public class servlet extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		String queryType = request.getParameter("asdfasdf");
+
+		// 7 Basic Steps in Using JDBC
+		// 1. Load the driver
+		// 2. Define the Connection URL
+		// 3. Establish the Connection
+		// 4. Create a Statement object
+		// 5. Execute a SQL query
+		// 6. Process the results (ResultSet)
+		// 7. Close the connection
+		
+/*
+		String queryType = request.getParameter("SELECT * FROM movies;");
 		Connection con = DatabaseAccess.connect();
 		switch (queryType)
 		{
@@ -104,14 +116,15 @@ public class servlet extends HttpServlet {
 		case "Directors":
 			break;
 		}
-		
-		
-//		runTemplate(request, response);
-//		System.out.println("Connecting to database...");
-//		
-//		System.out.println("Connected to database successfully. Yeah Baby");
-//		String query = null;
-//		ResultSet rs = DatabaseAccess.retrieve(con, query);
+*/
+	
+		// runTemplate(request, response);
+		// System.out.println("Connecting to database...");
+		// System.out.println("Connected to database successfully. Yeah Baby");
+/*
+		String query = null;
+		ResultSet rs = DatabaseAccess.retrieve(con, query);
+
 		try {
 			while(rs.next()) {
 				// System.out.println(rs.getString("first_name") + " " + rs.getString("last_name"));
@@ -119,18 +132,17 @@ public class servlet extends HttpServlet {
 				String value1 = request.getParameter("value1");
 				PrintWriter writer = response.getWriter();
 				// String queen = value1;
-				
-				// switch
-				// if String query == "
 				// String query = "select * from actors";
-
+*/
+/*
 				query = value1;
 				if (query == "actors") {
-				/*
+				
 PreparedStatement create = con.prepareStatement("CREATE TABLE IF NOT EXISTS tablename(id int NOT NULL AUTO_INCREMENT, first varchar(255), last varchar(255), PRIMARY KEY(id))");
-			create.executeUpdate();
-				 */
-					//"select * from actors";
+				create.executeUpdate();
+*/
+/*
+					"select * from actors";
 				}
 				else if (query == "movies") {
 					//"select * from actors";
@@ -142,10 +154,8 @@ PreparedStatement create = con.prepareStatement("CREATE TABLE IF NOT EXISTS tabl
 					//System.out.println("Nope");
 				}
 				
-
-			
-				
-				
+*/
+/*
 				response.setContentType("text/html");
 				writer.println(value1);
 			}
@@ -154,13 +164,15 @@ PreparedStatement create = con.prepareStatement("CREATE TABLE IF NOT EXISTS tabl
 		}
 		DatabaseAccess.closeConnection(con);
 	}
-
+*/
+/*
 	private ResultSet getAllActorsData(Connection con) {
-		// TODO Auto-generated method stub
 		String query = "select * from actors";
 		return DatabaseAccess.retrieve(con, query);
-		
+*/
+	
 	}
+
 
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)

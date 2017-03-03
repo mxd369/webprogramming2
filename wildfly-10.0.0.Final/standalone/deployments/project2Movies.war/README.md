@@ -20,3 +20,10 @@ http://viralpatel.net/blogs/freemarker-servlet-tutorial-example/
 
 
 
+ok so I have an action in movie.html,
+I need that to talk to the servlet
+
+I have some information on connecting
+and iterating through a database
+
+
