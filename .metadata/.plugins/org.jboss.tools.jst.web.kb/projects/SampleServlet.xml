@@ -114,7 +114,10 @@
   <path value="/Users/MXD/Sites/webprogramming/wildfly-10.0.0.Final/modules/system/layers/base/org/jboss/logging/main/jboss-logging-3.3.0.Final.jar"/>
   <path value="/Users/MXD/Sites/webprogramming/wildfly-10.0.0.Final/modules/system/layers/base/javax/ejb/api/main/jboss-ejb-api_3.2_spec-1.0.0.Final.jar"/>
  </paths>
- <includes/>
+ <validation>
+  <el/>
+ </validation>
  <aliases/>
+ <includes/>
  <uris/>
 </kb-project>

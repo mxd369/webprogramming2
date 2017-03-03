@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths>
+  <path value="/Users/MXD/Sites/webprogramming/ThoughtsBank2/WebContent/WEB-INF/lib/freemarker.jar"/>
+ </paths>
+ <includes/>
+ <aliases/>
+ <uris/>
+</kb-project>

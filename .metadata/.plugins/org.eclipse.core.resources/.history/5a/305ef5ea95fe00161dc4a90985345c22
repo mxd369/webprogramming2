@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<title>Movies</title>
+</head>
+<body>
+<h1 id="land">Movies</h1>
+
+<p id="land">Search: "actors, movies, directors"</p>
+
+	<form action="servlet" method="post">
+		<label for="nt">Search DB:</label>
+		<input type="textField" name="textField" id="nt" class="textcl" />
+		<button name="" value="" class="btn">Search!</button>
+	</form>
+
+<!-- 
+
+if textField == "actors"
+	print all actors
+else if textField == "movies"
+	print all movies
+else if textField == "directors"
+	print all directors
+else
+	throw error page
+
+-->
+
+
+</body>
+</html>

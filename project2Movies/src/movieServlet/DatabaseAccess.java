@@ -16,7 +16,13 @@ public class DatabaseAccess {
 	static final String CONNECTION_URL = "jdbc:mysql://localhost:3306/imdb";
 	static final String DB_CONNECTION_USERNAME = "root";
 	static final String DB_CONNECTION_PASSWORD = "336699888";
-	
+	public static void main (String[] args)
+	{
+		Connection c = connect();
+		ResultSet result = retrieve(c, "SELECT first_name from ACTORS");
+		
+		closeConnection(c);
+	}
 	public static Connection connect() {
 		Connection con = null;
 		try {

@@ -1,8 +1,10 @@
 package movieServlet;
 
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.io.Writer;
 import java.sql.Connection;
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
@@ -90,20 +92,74 @@ public class servlet extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-//		runTemplate(request, response);
-		System.out.println("Connecting to database...");
+		String queryType = request.getParameter("asdfasdf");
 		Connection con = DatabaseAccess.connect();
-		System.out.println("Connected to database successfully.");
-		String query = "select * from actors";
-		ResultSet rs = DatabaseAccess.retrieve(con, query);
+		switch (queryType)
+		{
+		case "actors": case "Actors":
+			ResultSet rs = getAllActorsData(con);
+			break;
+		case "Movies":
+			break;
+		case "Directors":
+			break;
+		}
+		
+		
+//		runTemplate(request, response);
+//		System.out.println("Connecting to database...");
+//		
+//		System.out.println("Connected to database successfully. Yeah Baby");
+//		String query = null;
+//		ResultSet rs = DatabaseAccess.retrieve(con, query);
 		try {
 			while(rs.next()) {
-				System.out.println(rs.getString("first_name") + " " + rs.getString("last_name"));
+				// System.out.println(rs.getString("first_name") + " " + rs.getString("last_name"));
+				System.out.println(rs.getString("value1"));
+				String value1 = request.getParameter("value1");
+				PrintWriter writer = response.getWriter();
+				// String queen = value1;
+				
+				// switch
+				// if String query == "
+				// String query = "select * from actors";
+
+				query = value1;
+				if (query == "actors") {
+				/*
+PreparedStatement create = con.prepareStatement("CREATE TABLE IF NOT EXISTS tablename(id int NOT NULL AUTO_INCREMENT, first varchar(255), last varchar(255), PRIMARY KEY(id))");
+			create.executeUpdate();
+				 */
+					//"select * from actors";
+				}
+				else if (query == "movies") {
+					//"select * from actors";
+				}
+				else if (query == "directors") {
+					//"select * from actors";
+				}
+				else {
+					//System.out.println("Nope");
+				}
+				
+
+			
+				
+				
+				response.setContentType("text/html");
+				writer.println(value1);
 			}
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
 		DatabaseAccess.closeConnection(con);
+	}
+
+	private ResultSet getAllActorsData(Connection con) {
+		// TODO Auto-generated method stub
+		String query = "select * from actors";
+		return DatabaseAccess.retrieve(con, query);
+		
 	}
 
 	/**
