@@ -9,7 +9,6 @@ import java.sql.DriverManager;		// make sure the MySQL server is running
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
-
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -54,16 +53,15 @@ public class servlet extends HttpServlet {
 		// During web page *development* TemplateExceptionHandler.HTML_DEBUG_HANDLER is better.
 		// This handler outputs the stack trace information to the client, formatting it so 
 		// that it will be usually well readable in the browser, and then re-throws the exception.
-		//		cfg.setTemplateExceptionHandler(TemplateExceptionHandler.RETHROW_HANDLER);
+		// cfg.setTemplateExceptionHandler(TemplateExceptionHandler.RETHROW_HANDLER);
 		cfg.setTemplateExceptionHandler(TemplateExceptionHandler.HTML_DEBUG_HANDLER);
 
 		// Don't log exceptions inside FreeMarker that it will thrown at you anyway:
 		// Specifies if TemplateException-s thrown by template processing are logged by FreeMarker or not. 
-		//		cfg.setLogTemplateExceptions(false);
+		//	cfg.setLogTemplateExceptions(false);
 	}
 
 	public void runTemplate(HttpServletRequest request, HttpServletResponse response) {
-
 		// You can use this structure for all of your objects to be sent to browser
 		Template template = null;
 		DefaultObjectWrapperBuilder df = new DefaultObjectWrapperBuilder(Configuration.VERSION_2_3_25);
@@ -92,7 +90,8 @@ public class servlet extends HttpServlet {
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	protected void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
 
 		// 7 Basic Steps in Using JDBC
 		// 1. Load the driver
@@ -171,7 +170,7 @@ PreparedStatement create = con.prepareStatement("CREATE TABLE IF NOT EXISTS tabl
 		return DatabaseAccess.retrieve(con, query);
 */
 	
-	}
+	} // end doGet
 
 
 	/**
@@ -179,6 +178,10 @@ PreparedStatement create = con.prepareStatement("CREATE TABLE IF NOT EXISTS tabl
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		doGet(request, response);
+
 	}
 
-}
+	
+	
+} // end
+

@@ -4,33 +4,37 @@ https://docs.oracle.com/javase/tutorial/jdbc/basics/connecting.html
 http://www.wideskills.com/jdbc-tutorial/introduction-to-jdbc
 
 
-
-http://stackoverflow.com/questions/11855627/how-to-retrieve-result-set-of-a-query-from-mysql-in-java#
-
+http://stackoverflow.com/questions/11855627/how-to-retrieve-result-set-of-a-query-from-mysql-in-java
 
 
-On-line ResourcesnSun’s JDBC Site
+On-line Resources
+
+Sun’s JDBC Site
 http://www.oracle.com/technetwork/database/application-development/jdbc/index.html
-
 
 
 JDBC Tutorial
 https://docs.oracle.com/javase/tutorial/jdbc/basics/index.htmln
 
 
-
 List of Available JDBC Drivers
 http://readyapi.smartbear.com/readyapi/databases/drivers/listn
-
 
 
 API for java.sql
 https://docs.oracle.com/javase/8/docs/api/java/sql/package-summary.html
 
 
-
 Writing JDBC Applications with MySQL
 http://www.kitebird.com/articles/jdbc.html
 
+
+http://docs.oracle.com/javase/tutorial/jdbc/basics/processingsqlstatements.html
+
+
+x
+
+
+x
 
 
