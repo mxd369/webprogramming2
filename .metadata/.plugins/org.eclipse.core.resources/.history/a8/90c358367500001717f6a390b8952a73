@@ -1,0 +1,9 @@
+package connectSQLDB;
+
+public class main {
+
+	// private static final String USERNAME = "dbuser";
+	// private static final String PASSWORD = "dbpassword";
+	private static final String CONN_STRING = "jdbc:mysql://localhost:3306/imdb";
+	
+}

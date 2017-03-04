@@ -1,0 +1,13 @@
+package tables;
+
+import java.sql.ResultSet;
+
+public class Movie {
+
+	// create statements to process data
+	public static void displayData(ResultSet rs) {
+		
+		
+	}
+	
+}

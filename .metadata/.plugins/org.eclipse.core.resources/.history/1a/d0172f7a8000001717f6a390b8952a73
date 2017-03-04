@@ -1,0 +1,21 @@
+package tables;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+public class Movie {
+
+	// create statements to process data
+	public static void displayData(ResultSet rs) throws SQLException {
+		while (rs.next()) {
+			StringBuffer buffer = new StringBuffer();
+			
+			buffer.append("Movie " + rs.getInt("tourId") + ": ");
+			
+			System.out.println(buffer.toString());
+			
+		}
+		
+	}
+	
+}

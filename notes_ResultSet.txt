@@ -1,0 +1,17 @@
+ResultSet
+
+ResultSet Cursor
+
+each instance of ResultSet has an in-memory cursor
+
+the starting cursor position is before the first row of data
+
+the most common operation is to move froward from row to row
+
+	ResultSet rs = stmt.executeQuery("SELECT * FROM states");
+	while (rs.next()) {
+		String columnValue = rs.getString("columnName");
+		//or
+		String columnValue = rs.getString(column position);
+		System.out.println(columnValue);
+	}
