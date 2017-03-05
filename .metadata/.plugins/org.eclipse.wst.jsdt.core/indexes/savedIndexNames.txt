@@ -1,7 +1,2 @@
 INDEX VERSION 1.3+/Users/MXD/Sites/webprogramming/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
-1499757755.index
-4134071104.index
-2452554283.index
-3864176970.index
-507864856.index
-22640706.index
+1184557282.index
