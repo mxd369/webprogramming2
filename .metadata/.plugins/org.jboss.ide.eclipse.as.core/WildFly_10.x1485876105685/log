@@ -1712,3 +1712,44 @@
 
 !ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2017-03-04 20:19:47.116
 !MESSAGE Server processes have been terminated.
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2017-03-07 19:42:10.589
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2017-03-07 19:42:13.757
+!MESSAGE Module project2Movies on WildFly 10.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2017-03-07 19:42:13.758
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2017-03-07 19:45:33.417
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2017-03-07 19:45:41.820
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2017-03-07 19:45:44.581
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2017-03-07 19:45:44.584
+!MESSAGE Module project2Movies on WildFly 10.x not yet fully deployed. Waiting...
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2017-03-07 19:53:54.602
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2017-03-07 19:53:57.254
+!MESSAGE Module project2Movies2 on WildFly 10.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2017-03-07 19:53:57.255
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2017-03-07 19:55:04.045
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2017-03-07 19:55:08.752
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2017-03-07 19:55:10.994
+!MESSAGE Server Startup Succeeded
